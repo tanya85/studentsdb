@@ -12,10 +12,10 @@ def groups_list(request):
          'leader': {'id': 1, 'name': u'Оберишин Тетяна'}},
         {'id': 2,
          'name': u'ДМ-22',
-         'leader': {'id': 2, 'name': u'Кравець Ірина'}},
+         'leader': {'id': 2, 'name': u'Якубовська Оля'}},
         {'id': 3,
          'name': u'ДМ-23',
-         'leader': {'id': 3, 'name': u'Якубовська Ольга'}},
+         'leader': {'id': 3, 'name': u'Кравець Ірина'}},
     )
     return render(request, 'students/groups_list.html',
         {'groups': groups})
